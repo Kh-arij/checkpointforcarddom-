@@ -1,3 +1,21 @@
-h1{
-    color: blue;
+header{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.block__header{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around; 
+}
+
+#block_quantity{
+    margin-top: 10px auto;
 }
